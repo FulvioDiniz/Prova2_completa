@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="608.0" prefWidth="1144.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prova2.controlechaves.controller.PrimaryController">
+   <children>
+      <Text layoutX="82.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Emprestimo" />
+      <Text layoutX="34.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chaves" />
+      <Text layoutX="430.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Servidor" />
+      <Text layoutX="921.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Devolução" />
+      <TextField fx:id="TextFieldChave" layoutX="88.0" layoutY="65.0" prefHeight="24.0" prefWidth="132.0" />
+      <Text layoutX="380.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome:" />
+      <TextField fx:id="TextFieldNome" layoutX="430.0" layoutY="65.0" prefHeight="24.0" prefWidth="132.0" />
+      <Text layoutX="806.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chave:" />
+      <TextField fx:id="TextFieldDevolucao" layoutX="870.0" layoutY="65.0" />
+      <ListView fx:id="ListViewChave" layoutX="54.0" layoutY="119.0" prefHeight="200.0" prefWidth="200.0" />
+      <ListView fx:id="ListViewServidor" layoutX="384.0" layoutY="119.0" prefHeight="200.0" prefWidth="353.0" />
+      <ListView fx:id="ListViewDevolucao" layoutX="876.0" layoutY="119.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="ButtomBuscar" layoutX="232.0" layoutY="65.0" mnemonicParsing="false" onAction="#ButtomBuscarClicado" text="Buscar" />
+      <Button fx:id="ButtonServidor" layoutX="574.0" layoutY="65.0" mnemonicParsing="false" onAction="#ButtonServidorClicado" text="Buscar" />
+      <Button fx:id="ButtonDevolucao" layoutX="1053.0" layoutY="65.0" mnemonicParsing="false" onAction="#ButtonDevolucaoClicado" text="Buscar" />
+      <Button fx:id="ButtonEmprestar" layoutX="111.0" layoutY="444.0" mnemonicParsing="false" onAction="#ButtonEmprestarClicado" text="Emprestar" />
+      <Button fx:id="ButtonDevolver" layoutX="945.0" layoutY="444.0" mnemonicParsing="false" onAction="#ButtonDevolverClicado" text="Devolver" />
+   </children>
+</AnchorPane>
